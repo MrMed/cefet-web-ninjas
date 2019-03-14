@@ -1,0 +1,65 @@
+body{
+  margin: 50px 200px 50px 200px;
+}
+
+#logo{
+  width: 200px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#nota{
+  background-color: #696969;
+  font-size: 12px;
+}
+
+body{
+  font-family: "DeJavu Sans";
+  text-align: justify;
+  background-color: #000000;
+  color: #FFFFFF;
+}
+
+h1, h2{
+  font-family: "DeJavu Serif";
+}
+
+strong{
+  font-size: 20px;
+  color: #000000;
+  background-color: #FFFFFF;
+}
+
+em {
+  font-size: 20px;
+}
+
+img, iframe{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+img:not(#logo){
+  border-radius: 5px;
+}
+
+a:link{/*link nunca visitado*/
+  color: #00FFFF;
+}
+
+a:visited{/*link ja visitado*/
+  color: #FF0000;
+}
+
+a:hover{/*mouse em cima do link*/
+  color: #FA8072;
+  background-image: url("img/globo.png");
+  background-repeat: no-repeat;
+  padding-left: 20px;
+}
+
+a:active{/*momento em que e clicado*/
+  color: #8B0000;
+}
